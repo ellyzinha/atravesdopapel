@@ -31,6 +31,12 @@ header *{
     height: 80px;
 }
 
+.icon-menu img{
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+}
+
 
 .nav-links {
     list-style-type: none; 
@@ -58,10 +64,19 @@ nav a:hover {
 
 #banner{
     margin-top: 200px;
-}
-#fundo-banner {
+    background-image: url("assets/img-banner.jpg");
+    height: 700px;
+    width: 100%;
     border-top: solid 10px;
     border-bottom: solid 10px;
-    height: 600px;
-    width: 100%;
+}
+
+#logo-ball {
+    width: 300px;
+    height: 300px;
+    margin: 200px, 0px, 200px, 0x;
+}
+
+#logo-ball, #banner-text {
+    display: inline-block;
 }
