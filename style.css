@@ -143,17 +143,13 @@ hr {
 .servicos {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 14px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.coluna {
-    flex: 50%;
-    padding: 10px 14px;
-}
 
 .coluna img {
     margin-top: 8px;
+    margin: 18px;
     vertical-align: middle;
     width: 500px;
     border: solid 5px;
