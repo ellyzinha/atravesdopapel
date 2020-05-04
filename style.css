@@ -88,3 +88,29 @@ nav a:hover {
     margin-right: 50px;
 }
 
+.titulo {
+    font-family: 'Oleo Script', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#sobre-nos {
+    display: inline-flex;
+    vertical-align: middle;
+    padding-left: 300px;
+}
+
+#sobre-nos > img {
+    width: 400px;
+    height: 179px;
+    margin-right: 120px;
+    margin-top: 250px;
+}
+
+#sobre-nos > span {
+    font-size: 40px;
+    width: 50%;
+}
+
