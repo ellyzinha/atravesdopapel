@@ -114,3 +114,11 @@ nav a:hover {
     width: 50%;
 }
 
+hr {
+    width: 400px;
+    color: #373239;
+    margin:auto;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    
+}
