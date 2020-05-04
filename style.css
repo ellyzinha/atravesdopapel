@@ -122,3 +122,20 @@ hr {
     margin-top: 150px;
     
 }
+
+#sobre-fundadora {
+    display: inline-flex;
+    padding-left: 10vmax;
+    padding-right: 10vmax;
+}
+#sobre-fundadora > img {
+    border: solid 5px;
+    height: 40vmax;
+    margin-top: 3vmin;
+    margin-right: 10vmax;
+}
+
+#sobre-fundadora > span {
+    width: 40vmax;
+    font-size: 2.5em;
+}
