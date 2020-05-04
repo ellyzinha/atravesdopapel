@@ -139,3 +139,28 @@ hr {
     width: 40vmax;
     font-size: 2.5em;
 }
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    justify-content: space-around;
+}
+
+.coluna {
+    flex: 50%;
+    padding: 10px 14px;
+}
+
+.coluna img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 500px;
+    border: solid 5px;
+}
+
+.coluna span{
+    width: 40vmax;
+    font-size: 2.5em;
+}
+
