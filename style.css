@@ -158,6 +158,7 @@ hr {
 .coluna img:hover {
     color: #808080;
     transition: 0.5s;
+    opacity: 0.8;
 }
 
 .coluna span{
@@ -187,6 +188,7 @@ hr {
 .trabalhos img:hover {
     color: #808080;
     transition: 0.5s;
+    opacity: 0.8;
 }
 
 
