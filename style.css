@@ -11,6 +11,7 @@ body {
     background-color: #fffaf4;
 }
 
+/* NavBar */
 
 header {
     width: 100%;
@@ -62,6 +63,8 @@ nav a:hover {
     color: #808080;
 }
 
+/*Apresentação */
+
 #banner{
     margin-top: 100px;
     background-image: url("assets/img-banner.jpg");
@@ -96,6 +99,8 @@ nav a:hover {
     margin-bottom: 100px;
 }
 
+/*Sobre Nós */
+
 #sobre-nos {
     display: inline-flex;
     vertical-align: middle;
@@ -123,6 +128,8 @@ hr {
     
 }
 
+/* Sobre a Fundadora */
+
 #sobre-fundadora {
     display: inline-flex;
     padding-left: 10vmax;
@@ -139,6 +146,8 @@ hr {
     width: 40vmax;
     font-size: 2.0em;
 }
+
+/* Serviços */
 
 .servicos {
     display: flex;
@@ -167,6 +176,8 @@ hr {
     margin: 120px;
 }
 
+/* Trabalhos */
+
 .trabalhos {
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +200,22 @@ hr {
     color: #808080;
     transition: 0.5s;
     opacity: 0.8;
+}
+
+/* Footer */
+
+.footer {
+    background: #808080;
+    height: 250px;
+}
+
+.footer-bottom{
+    height: 30px;
+    background: #ffffff;
+}
+
+.footer-bottom h4 {
+    text-align: center;
 }
 
 
