@@ -191,18 +191,19 @@ hr {
 
 
 /* Footer */
-footer {
-    background: #808080;
+.footer {
+    background: #E9B792;
+    height: 230px;
+}
+
+.footer .footer-content {
+    display: flex;
     height: 250px;
 }
 
-footer .footer-content {
-    display: flex;
-}
-
-footer .footer-content .footer-section {
+.footer .footer-content .footer-section {
     flex: 1;
-    border: 1px solid white;
+    padding: 25px;
 }
 
 
@@ -214,6 +215,10 @@ footer .footer-content .footer-section {
 
 .footer-bottom h4 {
     text-align: center;
+}
+
+.footer-section h2{
+    font-weight: 800;
 }
 
 
