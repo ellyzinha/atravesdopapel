@@ -160,7 +160,7 @@ hr {
     margin-top: 8px;
     margin: 18px;
     vertical-align: middle;
-    width: 300px;
+    width: 400px;
     border: solid 5px;
 }
 
@@ -184,15 +184,12 @@ hr {
     justify-content: center;
 }
 
-.coluna-trabalhos {
-    padding-left: 250px;
-}
 
-.coluna-trabalhos img {
+.trabalhos img {
     margin-top: 8px;
     margin: 18px;
     vertical-align: middle;
-    width: 300px;
+    width: 450px;
     border: solid 5px;
 }
 
@@ -202,16 +199,27 @@ hr {
     opacity: 0.8;
 }
 
-/* Footer */
 
-.footer {
+/* Footer */
+footer {
     background: #808080;
     height: 250px;
 }
 
+footer .footer-content {
+    display: flex;
+}
+
+footer .footer-content .footer-section {
+    flex: 1;
+    border: 1px solid white;
+}
+
+
 .footer-bottom{
     height: 30px;
     background: #ffffff;
+    margin-top: 5px;
 }
 
 .footer-bottom h4 {
