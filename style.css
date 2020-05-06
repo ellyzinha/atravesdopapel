@@ -164,11 +164,6 @@ hr {
     border: solid 5px;
 }
 
-.coluna img:hover {
-    color: #808080;
-    transition: 0.5s;
-    opacity: 0.8;
-}
 
 .coluna span{
     width: 40vmax;
@@ -193,11 +188,6 @@ hr {
     border: solid 5px;
 }
 
-.trabalhos img:hover {
-    color: #808080;
-    transition: 0.5s;
-    opacity: 0.8;
-}
 
 
 /* Footer */
