@@ -66,61 +66,63 @@ nav a:hover {
 /*Apresentação */
 
 #banner{
-    margin-top: 100px;
     background-image: url("assets/img-banner.jpg");
-    height: 700px;
-    width: 100%;
     border-top: solid 10px;
     border-bottom: solid 10px;
-    display: inline-flex;
-    padding-top: 200px;
-    padding-left: 160px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    height: 55%;
+    margin-top: 10%;
+    padding: 0 2%;
 }
 
 
 
 #logo-ball {
-    width: 300px;
-    height: 300px;
-    margin-right: 80px;
+    flex-basis: 30%;
+    margin-right: 5%;
 }
 
 #banner-text{
     font-family: 'Dancing Script', cursive;
-    font-size: 120px;
-    margin-right: 50px;
+    font-size: 8vw;
+    /* margin-right: 50px; */
 }
 
 .titulo {
     font-family: 'Oleo Script', cursive;
-    font-size: 70px;
+    font-size: 5rem;
     text-align: center;
-    margin-top: 120px;
+    /* margin-top: 10%; */
     margin-bottom: 100px;
 }
 
 /*Sobre Nós */
 
 #sobre-nos {
-    display: inline-flex;
-    vertical-align: middle;
-    padding-left: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    margin-top: 200px;
+
 }
 
 #sobre-nos > img {
-    width: 400px;
-    height: 179px;
-    margin-right: 120px;
-    margin-top: 250px;
+    flex-basis: 25vw;
+    align-self: center;
+    padding-bottom: 10vh;
 }
 
 #sobre-nos > span {
-    font-size: 30px;
-    width: 50%;
+    font-size: 2rem;
+    max-width: 700px;
 }
 
 hr {
-    width: 400px;
+    width: 30vw;
     color: #373239;
     margin:auto;
     margin-bottom: 100px;
@@ -131,15 +133,17 @@ hr {
 /* Sobre a Fundadora */
 
 #sobre-fundadora {
-    display: inline-flex;
-    padding-left: 10vmax;
-    padding-right: 10vmax;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 10vmax;
+    justify-content: space-evenly;
+    
 }
 #sobre-fundadora > img {
     border: solid 5px;
-    height: 38vmax;
-    margin-top: 3vmin;
-    margin-right: 10vmax;
+    height: 30vmax;
+    align-self: center;
+    box-shadow: 0 4px 6px 0 #373239;
 }
 
 #sobre-fundadora > span {
@@ -275,5 +279,259 @@ hr {
     font-weight: 800;
 }
 
+
+=======
+    font-size: 2em;
+    max-width: 700px;
+}
+
+#missao-visao {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#missao-visao > div {
+    max-width: 40vw;
+    font-size: 2em;
+}
+
+#valores {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#valores span {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#lista-valores{
+    max-width: 60%;
+    justify-content: flex-start;
+}
+
+#lista-valores img{
+    width: 8%;
+    margin-right: 20px;
+}
+
+#lista-valores .titulo{
+    margin-top: 0;
+    text-align: left;
+}
+
+#em-casa {
+    max-width: 40%;
+}
+
+#em-casa img{
+    border: solid 5px;
+    height: 25vmax;
+    align-self: center;
+    box-shadow: 0 4px 6px 0 #373239;
+}
+
+#clientes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.depoimento {
+    font-size: 2em;
+}
+
+#clientes img {
+    max-width: 25vw;
+    border: solid 5px #373239;
+    box-shadow: 0 4px 6px 0 #373239;
+    margin-bottom: 15px;
+}
+
+#clientes div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+
+#clientes h6 {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#email-contato {
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+}
+
+#form-email > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#form-email input, textarea{
+    border: solid 3px #e9b792;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+#form-email label {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+#enviar{
+    display: flex;
+    justify-content: space-between;
+}
+#email-contato button {
+    border: solid 2px #373239;
+    border-radius: 5px;
+    background-color: #e9b792;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 22%;
+    /* TODO 2: ALINHAR O BOTÃO À DIREITA */
+    box-shadow: 0 4px 4px 0 #373239;
+}
+
+#redes-sociais { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#botoes-rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.botao-social-media{
+    background-color: #373239;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#redes-sociais img {
+    width: 5vw;
+    padding-bottom: 10px;
+}
+
+#contato .titulo {
+    font-size: 3rem;
+}
+
+#contato h4 {
+    color: #808080;
+}
+
+
+#divisor {
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.linha-vertical {
+    height: 500px;
+    width: 10px;
+    border-left: solid 2px #373239;
+    margin: 0;
+    align-self: baseline;
+}
+
+#valores .linha-vertical{
+    align-self: center;
+}
+
+@media(max-width: 1200px) {
+    #banner {
+        margin-top: 25vh;
+    }
+
+    #sobre-fundadora {
+        flex-direction: column;
+        margin: 0 10%;
+
+    }
+
+    #sobre-fundadora span {
+        margin-top: 10%;
+        align-self: center;
+        width: 100%;
+    }
+
+    #missao-visao {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10%;
+    }
+
+    #missao-visao > div {
+        max-width: 800px;
+    }
+
+    #visao {
+        margin-top: 100px;
+    }
+
+    #valores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #valores .titulo {
+        text-align: center;
+    }
+
+    #lista-valores {
+        max-width: 80%;
+        margin-bottom: 10%;
+    }
+
+    #em-casa{
+        align-self: center;
+    }
+
+    #contato {
+        flex-direction: column-reverse;
+    }
+
+    #email-contato{
+        width: 80%;
+    }
+
+    #email-contato .titulo {
+        margin-top: 20%;
+    }
+
+    .linha-vertical {
+        display: none;
+    }
+}
 
 
