@@ -92,7 +92,7 @@ nav a:hover {
     font-family: 'Oleo Script', cursive;
     font-size: 5rem;
     text-align: center;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-bottom: 100px;
 }
 
@@ -268,7 +268,6 @@ hr {
     font-weight: bolder;
     width: 22%;
     /* TODO 2: ALINHAR O BOTÃO À DIREITA */
-    float: right;
     box-shadow: 0 4px 4px 0 #373239;
 }
 
@@ -297,18 +296,20 @@ hr {
     padding-bottom: 10px;
 }
 
+#contato .titulo {
+    font-size: 3rem;
+}
 
 @media(max-width: 1200px) {
     #sobre-fundadora {
         flex-direction: column;
-        margin: auto;
 
     }
 
     #sobre-fundadora span {
         margin-top: 10%;
         align-self: center;
-        max-width: 800px;
+        width: 800px;
     }
 
     #missao-visao {
@@ -321,6 +322,10 @@ hr {
 
     #missao-visao > div {
         max-width: 800px;
+    }
+
+    #visao {
+        margin-top: 100px;
     }
 
     #valores {
