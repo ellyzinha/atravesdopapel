@@ -169,6 +169,7 @@ hr {
     width: 40vmax;
     font-size: 2.5em;
     margin: 120px;
+    font-family: 'Oleo Script', cursive;
 }
 
 /* Trabalhos */
@@ -195,6 +196,49 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
+    align-items: center;
+}
+
+
+.instagram-contatos h3{
+    font-size: 30px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.zap-contatos h3{
+    font-size: 30px;
+    font-family: 'Oleo Script', cursive;
+}
+
+
+.instagram-contatos #insta{
+    display: block;
+    width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: #373239;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zap-contatos #zap {
+    display: block;
+    width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: #E9B792;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
