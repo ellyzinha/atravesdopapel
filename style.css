@@ -117,6 +117,7 @@ nav a:hover {
     max-width: 700px;
 }
 
+
 hr {
     width: 30vw;
     color: #373239;
@@ -264,6 +265,7 @@ hr {
 #enviar{
     display: flex;
     justify-content: space-between;
+    padding: 40px;
 }
 #email-contato button {
     border: solid 2px #373239;
