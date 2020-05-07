@@ -11,7 +11,6 @@ body {
     background-color: #fffaf4;
 }
 
-/* NavBar */
 
 header {
     width: 100%;
@@ -51,7 +50,7 @@ header *{
 
 
 
- .nav-link a {
+ a {
     font-size: 20px;
     text-decoration: none;
     padding: 18px;
@@ -62,8 +61,6 @@ header *{
 nav a:hover {
     color: #808080;
 }
-
-/*Apresentação */
 
 #banner{
     background-image: url("assets/img-banner.jpg");
@@ -99,8 +96,6 @@ nav a:hover {
     margin-bottom: 100px;
 }
 
-/*Sobre Nós */
-
 #sobre-nos {
     display: flex;
     flex-flow: row wrap;
@@ -130,8 +125,6 @@ hr {
     
 }
 
-/* Sobre a Fundadora */
-
 #sobre-fundadora {
     display: flex;
     flex-flow: row wrap;
@@ -148,139 +141,6 @@ hr {
 
 #sobre-fundadora > span {
     width: 40vmax;
-    font-size: 2.0em;
-}
-
-/* Serviços */
-
-.servicos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-.coluna img {
-    margin-top: 8px;
-    margin: 18px;
-    vertical-align: middle;
-    width: 400px;
-    border: solid 5px;
-}
-
-
-.coluna span{
-    width: 40vmax;
-    font-size: 2.5em;
-    margin: 120px;
-    font-family: 'Oleo Script', cursive;
-}
-
-/* Trabalhos */
-
-.trabalhos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-.trabalhos img {
-    margin-top: 8px;
-    margin: 8px;
-    vertical-align: middle;
-    width: 450px;
-    border: solid 5px;
-}
-
-/*Chamada para contato */
-
-.contatos-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px;
-    align-items: center;
-}
-
-
-.instagram-contatos h3{
-    font-size: 30px;
-    font-family: 'Oleo Script', cursive;
-}
-
-.zap-contatos h3{
-    font-size: 30px;
-    font-family: 'Oleo Script', cursive;
-}
-
-
-.instagram-contatos #insta{
-    display: block;
-    width: 160px;
-    height: 40px;
-    padding: 10px 5px;
-    margin: 20px;
-    background-color: #373239;
-    color: #FFF;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.zap-contatos #zap {
-    display: block;
-    width: 160px;
-    height: 40px;
-    padding: 10px 5px;
-    margin: 20px;
-    background-color: #E9B792;
-    color: #000;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-/* Footer */
-.footer {
-    background: #E9B792;
-    height: 230px;
-}
-
-.footer .footer-content {
-    display: flex;
-    height: 250px;
-}
-
-.footer .footer-content .footer-section {
-    flex: 1;
-    padding: 25px;
-}
-
-
-.footer-bottom{
-    height: 30px;
-    background: #ffffff;
-    margin-top: 5px;
-}
-
-.footer-bottom h4 {
-    text-align: center;
-}
-
-.footer-section h2{
-    font-weight: 800;
-}
-
-
-=======
     font-size: 2em;
     max-width: 700px;
 }
@@ -533,5 +393,4 @@ hr {
         display: none;
     }
 }
-
 
