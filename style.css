@@ -9,6 +9,7 @@ body {
     height: 125vh;
     margin-top: 120px;
     background-color: #fffaf4;
+    scroll-behavior: smooth;
 }
 
 
@@ -395,6 +396,7 @@ hr {
     max-width: 30%;
     text-align: center;
 }
+
 
 
 .instagram-contatos h3{
