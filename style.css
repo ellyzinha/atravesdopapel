@@ -297,6 +297,10 @@ hr {
     padding-bottom: 10px;
 }
 
+#contato .titulo {
+    font-size: 3rem;
+}
+
 
 @media(max-width: 1200px) {
     #sobre-fundadora {
@@ -308,7 +312,7 @@ hr {
     #sobre-fundadora span {
         margin-top: 10%;
         align-self: center;
-        max-width: 800px;
+        width: 70%;
     }
 
     #missao-visao {
