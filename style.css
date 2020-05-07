@@ -221,6 +221,7 @@ hr {
     flex-basis: 25%;
 }
 
+
 #clientes h6 {
     text-align: right;
     font-size: 1.2em;
@@ -259,6 +260,10 @@ hr {
     margin-bottom: 5px;
 }
 
+#enviar{
+    display: flex;
+    justify-content: space-between;
+}
 #email-contato button {
     border: solid 2px #373239;
     border-radius: 5px;
@@ -301,30 +306,50 @@ hr {
     font-size: 3rem;
 }
 
+#contato h4 {
+    color: #808080;
+}
+
+
+#divisor {
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.linha-vertical {
+    height: 500px;
+    width: 10px;
+    border-left: solid 2px #373239;
+    margin: 0;
+    align-self: baseline;
+}
+
+#valores .linha-vertical{
+    align-self: center;
+}
 
 @media(max-width: 1200px) {
     #banner {
-        margin-top: 30vh;
+        margin-top: 25vh;
     }
 
     #sobre-fundadora {
         flex-direction: column;
-        margin: auto;
+        margin: 0 10%;
 
     }
 
     #sobre-fundadora span {
         margin-top: 10%;
         align-self: center;
-        width: 70%;
+        width: 100%;
     }
 
     #missao-visao {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        margin: 0;
+        margin: 0 10%;
     }
 
     #missao-visao > div {
@@ -341,12 +366,12 @@ hr {
     }
 
     #lista-valores {
-        max-width: 800px;
+        max-width: 80%;
         margin-bottom: 10%;
     }
 
-    #em-casa img{
-        height: 40%;
+    #em-casa{
+        align-self: center;
     }
 
     #contato {
@@ -359,6 +384,10 @@ hr {
 
     #email-contato .titulo {
         margin-top: 20%;
+    }
+
+    .linha-vertical {
+        display: none;
     }
 }
 
