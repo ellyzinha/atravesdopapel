@@ -303,6 +303,10 @@ hr {
 
 
 @media(max-width: 1200px) {
+    #banner {
+        margin-top: 30vh;
+    }
+
     #sobre-fundadora {
         flex-direction: column;
         margin: auto;
@@ -347,6 +351,10 @@ hr {
 
     #contato {
         flex-direction: column-reverse;
+    }
+
+    #email-contato{
+        width: 80%;
     }
 
     #email-contato .titulo {
