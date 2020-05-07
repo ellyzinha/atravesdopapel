@@ -57,27 +57,27 @@
         </div>
         <hr/>
 
-        <!-- TODO 2: SERVIÇOS -->
+        <!--: SERVIÇOS -->
         <p class="titulo" id="trabalhos-page">Serviços</p>
         <div class="servicos" >
-            <div class="coluna">
+            <span class="tipo-servico">
                 <img id="paredes" src="./assets/Serviços/Paredes.jpeg" alt="Parede">
+                <p>Paredes</p>
+            </span>
+            <span class="tipo-servico">
                 <img id="quadrinhos" src="./assets/Serviços/Quadrinhos.jpeg" alt="Quadrinhos">
+                <p>Quadrinhos</p>
+            </span>
+            <span class="tipo-servico">
                 <img id="prints" src="./assets/Serviços/Prints.jpeg" alt="Prints">
-                
-            </div>
-            <div class="coluna">
-                <span>Paredes</span>
-                <span>Quadrinhos</span>
-                <span>Prints</span>
-            </div>
+                <p>Prints</p>
+            </span>
         </div>
-        <div>
             
     
-            <hr/>
+        <hr/>
 
-        <!-- TODO 3: TRABALHOS -->
+        <!-- TRABALHOS -->
 
         <p class="titulo">Trabalhos</p>
         <div class="trabalhos">
@@ -93,18 +93,18 @@
         <!--CHAMADAS PARA CONTATOS-->
         <div class="contatos-container">
             <div class="instagram-contatos">
-                <img src="./assets/icons/instagram-circle.svg" style="height: 100px;">
+                <img src="./assets/icons/instagram-circle.svg">
                 <h3>Acompanhe nossas postagens para ficar por dentro das nossas novidades</h3>
                 <a id="insta" href="https://www.instagram.com/atravesdopapel_/" target="_blank">Ver Instagram</a>
             </div>
             <div class="zap-contatos">
-                <img align="center" src="./assets/icons/wpp.png" style="height: 100px;">
+                <img  src="./assets/icons/wpp.png">
                 <h3>Fale com a gente no WhatsApp para fazer um orçamento</h3>
                 <a id="zap" href="#">Chamar no Zap</a>
             </div>
-            </div>
+        </div>
     
-            <hr/>
+        <hr/>
 
         <p class="titulo" id="fundadora">Sobre a fundadora</p>
         <div id="sobre-fundadora">
@@ -182,7 +182,6 @@
 
         <hr/>
         
-        <!-- TODO 1: Adicionar as linhas verticais-->
         <p class="titulo">O que nossos clientes dizem?</p>
         <div id="clientes">
             <div>
@@ -225,11 +224,11 @@
                         <input type="text" id="assunto" name="assunto" placeholder="Informe o seu nome">
                     </span>
                     <span>
-                        <label for="nome">Nome*</label>
+                        <label for="nome">Texto*</label>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </span>
                 </form>
-                <div id="enviar">
+                <div id="enviar-email">
                     <h4>Os itens marcados com * são obrigatórios</h4>
                     <button type="submit" form="form-email" value="Enviar">Enviar</button>
                 </div>
@@ -261,8 +260,15 @@
                 <div class="footer-section contato">
                     <h2>CONTATO</h2>
                     <br><br>
-                     <h3><img src="./assets/icons/call-24px.svg"> (81) 99520-5881</h3>
-                     <img src="./assets/icons/mail_outline-24px.svg">
+                    <span class="forma-contato">
+                        <img src="./assets/icons/call-24px.svg">
+                        <h3>(81) 99520-5881</h3>
+                    </span>
+                    <span class="forma-contato">
+                        <img src="./assets/icons/mail_outline-24px.svg">
+                        <h3>atravesdopapel@gmail.com</h3>
+                </span>
+                     
 
                 </div>
                 <div class="footer-section redes">
