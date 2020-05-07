@@ -92,7 +92,7 @@ nav a:hover {
     font-family: 'Oleo Script', cursive;
     font-size: 5rem;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 10%;
     margin-bottom: 100px;
 }
 
@@ -145,6 +145,159 @@ hr {
     max-width: 700px;
 }
 
+#missao-visao {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#missao-visao > div {
+    max-width: 40vw;
+    font-size: 2em;
+}
+
+#valores {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#valores span {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#lista-valores{
+    max-width: 60%;
+    justify-content: flex-start;
+}
+
+#lista-valores img{
+    width: 8%;
+    margin-right: 20px;
+}
+
+#lista-valores .titulo{
+    margin-top: 0;
+    text-align: left;
+}
+
+#em-casa {
+    max-width: 40%;
+}
+
+#em-casa img{
+    border: solid 5px;
+    height: 25vmax;
+    align-self: center;
+    box-shadow: 0 4px 6px 0 #373239;
+}
+
+#clientes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.depoimento {
+    font-size: 2em;
+}
+
+#clientes img {
+    max-width: 25vw;
+    border: solid 5px #373239;
+    box-shadow: 0 4px 6px 0 #373239;
+    margin-bottom: 15px;
+}
+
+#clientes div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+#clientes h6 {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#email-contato {
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+}
+
+#form-email > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#form-email input, textarea{
+    border: solid 3px #e9b792;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+#form-email label {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+#email-contato button {
+    border: solid 2px #373239;
+    border-radius: 5px;
+    background-color: #e9b792;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 22%;
+    /* TODO 2: ALINHAR O BOTÃO À DIREITA */
+    float: right;
+    box-shadow: 0 4px 4px 0 #373239;
+}
+
+#redes-sociais { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#botoes-rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.botao-social-media{
+    background-color: #373239;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#redes-sociais img {
+    width: 5vw;
+    padding-bottom: 10px;
+}
+
+
 @media(max-width: 1200px) {
     #sobre-fundadora {
         flex-direction: column;
@@ -157,4 +310,43 @@ hr {
         align-self: center;
         max-width: 800px;
     }
+
+    #missao-visao {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0;
+    }
+
+    #missao-visao > div {
+        max-width: 800px;
+    }
+
+    #valores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #valores .titulo {
+        text-align: center;
+    }
+
+    #lista-valores {
+        max-width: 800px;
+        margin-bottom: 10%;
+    }
+
+    #em-casa img{
+        height: 40%;
+    }
+
+    #contato {
+        flex-direction: column-reverse;
+    }
+
+    #email-contato .titulo {
+        margin-top: 20%;
+    }
 }
+

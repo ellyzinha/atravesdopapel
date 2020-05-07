@@ -24,7 +24,7 @@
                     <li class="nav-link"><a href="#">Contato</a></li>
                     <li class="nav-link"><a href="#">Experiências</a></li>
                     <li class="nav-link"><a href="#">Trabalhos</a></li>
-                    <li class="nav-link"><a href="#">Sobre Nós</a></li>
+                    <li class="nav-link"><a href="#sobre-nos">Sobre Nós</a></li>
                     <li class="nav-link"><a href="#banner">Home</a></li>
                 </ul>
             </nav>
@@ -89,11 +89,114 @@
             </span>
         </div>
         <hr/>
-        <!-- TODO 5: MISSÃO, VISÃO E VALORES (VINI) -->
+        <div id="missao-visao">
+            <div id="missao">
+                <p class="titulo">Missão</p>
+                <p>Transformar sentimentos, emoções e sonhos em arte através de desenhos, cores e letras.</p>
+            </div>
+            <div id="visao">
+                <p class="titulo">Visão</p>
+                <p>Ser reconhecida no ramo do Lettering com autoridade na área capaz de ditar os
+                    rumos e tendências, com o compromisso de aumentar a visibilidade desse cenário que
+                    ainda tem muito a ser explorado.</p>
+            </div>
+        </div>
 
+        <hr/>
+
+        <div id="valores">
+            <div id="lista-valores">
+                <p class="titulo">Valores</p>
+                <span>
+                    <img src="assets/icons/mood-24px.svg">
+                    <p>Satisfação do cliente</p>
+                </span>
+                <span>
+                    <img src="assets/icons/group-24px.svg">
+                    <p>Responsabilidade social</p>
+                </span>
+                <span>
+                    <img src="assets/icons/all_inclusive-24px.svg">
+                    <p>Fazer mais, usando menos</p>
+                </span>
+                <span>
+                    <img src="assets/icons/public-24px.svg">
+                    <p>Respeito ao meio ambiente</p>
+                </span>
+            </div>
+
+            <div id="em-casa">
+                <img src="./assets/FiqueEmCasa.jpeg">
+            </div>
+        </div>
+
+        <hr/>
         
+        <!-- TODO 1: Adicionar as linhas verticais-->
         <!-- TODO 6: O QUE NOSSOS CLIENTES DIZEM? (VINI) -->
+        <p class="titulo">O que nossos clientes dizem?</p>
+        <div id="clientes">
+            <div>
+                <img src="./assets/Depoimentos/depoimento1.jpeg">
+                <span>
+                    <p class="depoimento">"Essa frase é muito especial para mim, me remete lembranças maravilhosas da melhor fase da minha vida. Adorei o resultado, a forma como foi feita, usando aquarela para fazer um efeito de galáxia, ficou muito bom. Obrigado!"</p>
+                    <h6>Henrique Lima</h6>
+                </span>
+            </div>
+            <div>
+                <img src="./assets/Depoimentos/depoimento2.jpeg">
+                <span>
+                    <p class="depoimento">"Ganhei essa arte no dia do meu aniversário, adorei seu cuidado buscando desenhos que representam as coisas mais importantes na minha vida e minhas principais características. O trabalho ficou simplesmente perfeito. Amei sua arte!"
+                    </p>
+                    <h6>Hércullys Jucá</h6>
+                </span>
+            </div>
+        </div>
+
+        <hr/>
         <!-- TODO 7: CONTATO-->
-        
+        <p class="titulo">Contato</p>
+        <div id="contato">
+            <div id="email-contato">
+                <p class="titulo">Email</p>
+                <form id="form-email" action="#">
+                    <span>
+                        <label for="nome">Nome*</label>
+                        <input type="text" id="nome" name="nome" placeholder="Informe o seu nome">
+                    </span>
+                    <span>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="(DDD) 9XXXX-XXXX">
+                    </span>
+                    <span>
+                        <label for="email">E-mail*</label>
+                        <input type="text" id="email" name="email" placeholder="Insira o seu endereço de email">
+                    </span>
+                    <span>
+                        <label for="assunto">Assunto*</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Informe o seu nome">
+                    </span>
+                    <span>
+                        <label for="nome">Nome*</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </span>
+                </form>
+                <button type="submit" form="form-email" value="Enviar">Enviar</button>
+            </div>
+
+            <div id="redes-sociais">
+                <p class="titulo">Redes sociais</p>
+                <div id="botoes-rs">
+                    <a href="https://www.instagram.com/atravesdopapel_/" target="_blank" class="botao-social-media">
+                        <img src="./assets/icons/NicePng_hyper-light-drifter-png_3536852.png" alt="logo instagram">
+                        <p>Abrir Instagram</p>
+                    </a>
+                    <a href="" target="_blank" class="botao-social-media">
+                        <img src="./assets/icons/NicePng_whatsapp-icons-png_2665995.png" alt="logo whatsapp">
+                        <p>Conversar no WhatsApp</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
