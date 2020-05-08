@@ -83,9 +83,8 @@ nav a:hover {
 
 
 #logo-ball {
-    flex-basis: 30%;
+    width: 15%;
     margin-right: 5%;
-    /* height: 80%; */
 }
 
 #banner-text{
@@ -110,7 +109,7 @@ nav a:hover {
 }
 
 #sobre-nos > img {
-    flex-basis: 25vw;
+    width: 25vw;
     align-self: center;
     padding-bottom: 10vh;
 }
